@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="651f3e7b-9f4c-4adf-b152-9f2bab1c8050" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,9 +27,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.few_shot.executor": "Run",
+    "Python.helper_llm.executor": "Run",
+    "Python.post_generator.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/USER/Documents/GenAI Learn/LinkedInPostGeneratorV2"
+    "last_opened_file_path": "C:/Users/USER/Documents/GenAI Learn/LinkedInPostGenerator V2"
   }
 }]]></component>
   <component name="SharedIndexes">

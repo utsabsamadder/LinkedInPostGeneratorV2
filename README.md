@@ -35,3 +35,64 @@ This project is a LinkedIn Post Generator that uses a language model to create p
    ```bash
    git clone https://github.com/utsabsamadder/linkedin-post-generator.git
    cd linkedin-post-generator
+2. **Set Up a Virtual Environment**
+
+   It's recommended to use a virtual environment to manage dependencies.
+
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   ```
+
+3. **Install Dependencies**
+
+   Install the required Python packages using pip.
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+Ensure that langchain_groq and other necessary packages are listed in requirements.txt.
+
+4. **Set Up Environment Variables**
+
+   Create a `.env` file in the root directory and add your API keys for the language models:
+
+   ```bash
+   GROQ_API_KEY1=your_groq_api_key_for_llama
+   GROQ_API_KEY2=your_groq_api_key_for_whisper
+   ```
+
+
+### Running the Application
+1. **Start the Streamlit App**
+
+Run the following command to start the Streamlit application:
+
+    ```bash
+    streamlit run main.py
+    ```
+
+
+2. **Interact with the App**
+   - Open your web browser and navigate to `http://localhost:8501`.
+   - Use the sidebar to select the length, language, and topic for the post.
+   - Enter any additional context or information in the custom input text box. 
+   - Click the "Generate" button to create a LinkedIn post based on your inputs.
+
+
+
+### Troubleshooting
+- ModuleNotFoundError: Ensure all dependencies are installed and the virtual environment is activated.
+- API Key Issues: Verify that the .env file is correctly set up with your API keys.
+### Contributing
+Contributions are welcome! Please fork the repository and submit a pull request for any improvements or bug fixes.
+
+### License
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+### Acknowledgments
+Thanks to the developers of the language model and Streamlit for providing the tools to build this application.
+
+
+
